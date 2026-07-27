@@ -4,194 +4,180 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Riya Goel — Software Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" href="src/styles.css">
 <script src="src/script.js" defer></script>
 </head>
 <body>
-  <div class="shell">
-    <aside class="sidebar">
-      <div class="mark">R</div>
-      <nav class="sb-nav">
-        <div>
-          <div class="eyebrow">Main</div>
-          <a href="#experience" class="active">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#info">Info</a>
-        </div>
-      </nav>
-      <div class="sb-contact">
-        <div class="eyebrow" style="font-family:var(--mono); font-size:10px; color:var(--ink-faint); text-transform:uppercase;">Contact</div>
-        <a href="mailto:goelriya245@gmail.com">Email</a>
-        <a href="http://www.linkedin.com/in/riyagoel8" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="tel:6086402651">608-640-2651</a>
-      </div>
-    </aside>
-  
-    <div class="topbar">
-      <div class="mark">R</div>
-      <nav>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#info">Info</a>
-      </nav>
-    </div>
-  
-    <main>
-      <section class="hero">
-        <div class="kicker">Riya Goel — CS · Data Science · Math</div>
-        <h1>I build <em>backend systems</em> that hold up under real load.</h1>
-        <p class="sub">Computer Science, Data Science &amp; Math student at UW–Madison. I like distributed systems, clean APIs, and turning messy data into models that actually ship. Currently interning at Eagle Wireless.</p>
-        <div class="scroll-cue"><span class="line"></span> Scroll to see experience</div>
-      </section>
-  
-      <!-- EXPERIENCE -->
-      <section id="experience">
-        <div class="section-head reveal">
-          <h2>Experience</h2>
-          <span class="count">3 roles — 2025 to now</span>
-        </div>
-        <div class="exp-list">
-  
-          <div class="exp-row reveal">
-            <div class="when">May 2026 —<br>Present</div>
-            <div>
-              <h3>Eagle Wireless</h3>
-              <span class="role">Software Engineer Intern</span>
-              <ul>
-                <li>Designed a distributed, event-driven monitoring system handling real-time telemetry from 25+ containers across 5 Linux hosts, replacing manual checks for 3+ operators.</li>
-                <li>Built low-latency REST and WebSocket APIs in FastAPI to broadcast live system-state changes, using Pydantic schemas to enforce data integrity across services.</li>
-                <li>Integrated NetSuite and Inovaxe APIs into a backend automation service, cutting manual processing time by 50% across 30+ orders and 60+ units.</li>
-                <li>Automated build and deployment pipelines with Podman, Nginx, systemd, and Ansible, improving release consistency.</li>
-                <li>Wrote 20+ unit, integration, and API tests with Pytest, catching regressions pre-deployment.</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="exp-row reveal">
-            <div class="when">May 2026 —<br>Present</div>
-            <div>
-              <h3>UW–Madison Letters &amp; Science</h3>
-              <span class="role">IT Service Desk Technician</span>
-              <ul>
-                <li>Diagnose and resolve 20+ weekly technical issues across Windows, macOS, and university systems using structured root-cause troubleshooting.</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="exp-row reveal">
-            <div class="when">May 2026 —<br>Present</div>
-            <div>
-              <h3>Undergraduate Learning Centre</h3>
-              <span class="role">STEM Peer Facilitator</span>
-              <ul>
-                <li>Teach algorithmic problem-solving and CS fundamentals to 10–20 students weekly, translating complex concepts into clear, structured explanations.</li>
-              </ul>
-            </div>
-          </div>
-  
-        </div>
-      </section>
-  
-      <!-- PROJECTS -->
-      <section id="projects">
-        <div class="section-head reveal">
-          <h2>Selected projects</h2>
-          <span class="count">2 projects</span>
-        </div>
-        <div class="work-list">
-  
-          <div class="work-row reveal" data-color="#2b2320" data-label="Java · JDBC · MySQL">
-            <div class="title-block">
-              <div class="name">E-Commerce Application</div>
-              <div class="desc">A layered, service-oriented Java app (DAO/service pattern) with auth, cart management, and order processing — CRUD across 4 core entities with clean separation between persistence and business logic.</div>
-            </div>
-            <div class="meta">Java · JDBC · MySQL</div>
-          </div>
-  
-          <div class="work-row reveal" data-color="#1f2420" data-label="Python · Scikit-learn">
-            <div class="title-block">
-              <div class="name">Amazon Product Recommender</div>
-              <div class="desc">Benchmarked SVD and KNN collaborative-filtering models, tuning hyperparameters with GridSearchCV to reduce RMSE to 0.64. Built a Top-5 ranking pipeline from learned user-item embeddings.</div>
-            </div>
-            <div class="meta">Python · Scikit-learn</div>
-          </div>
-  
-        </div>
-      </section>
-  
-      <!-- INFO -->
-      <section id="info" class="info">
-        <div class="section-head reveal">
-          <h2>Info</h2>
-          <span class="count">Education · Skills · Leadership</span>
-        </div>
-        <div class="info-grid">
-          <div class="reveal">
-            <p>
-              I'm most interested in <span class="accent">systems that run themselves</span> —
-              backend services, APIs, and pipelines that stay reliable once you stop watching them.
-            </p>
-            <div class="edu-block">
-              <h4>University of Wisconsin–Madison</h4>
-              <div class="when">Sep 2024 — May 2028 · Madison, WI</div>
-              <p>B.S. in Computer Science, Data Science, and Mathematics. GPA 3.7/4.0 · Dean's List (3 semesters). Coursework: Data Structures &amp; Algorithms, Artificial Intelligence, Linear Algebra, Discrete Mathematics.</p>
-            </div>
-          </div>
-          <div class="reveal">
-            <div class="skill-group">
-              <div class="gname">Languages</div>
-              <div class="skills">
-                <span>Python</span><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <div class="gname">Systems &amp; Backend</div>
-              <div class="skills">
-                <span>Linux</span><span>Docker</span><span>Podman</span><span>Nginx</span><span>REST APIs</span><span>WebSockets</span><span>FastAPI</span><span>Flask</span><span>Distributed Systems</span><span>Concurrency</span><span>Git</span><span>CI/CD</span><span>Ansible</span><span>Pytest</span><span>Pydantic</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <div class="gname">Data &amp; ML</div>
-              <div class="skills">
-                <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>PyTorch</span><span>SQLite</span><span>Tableau</span><span>Power BI</span>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="lead-grid">
-          <div class="lead-card reveal">
-            <div class="role">President</div>
-            <h4>Women in Computing at UW–Madison (ACM-W)</h4>
-            <p>Lead a 20+ member executive board across 3 event programs. Scaled programming to 35+ events, building partnerships with 12+ companies and 5+ campus organizations.</p>
-          </div>
-          <div class="lead-card reveal">
-            <div class="role">Secretary</div>
-            <h4>MadCloud</h4>
-            <p>Founding secretary managing communications and operations for a new cloud computing organization. Coordinate recruitment and technical workshops with campus partners.</p>
-          </div>
-        </div>
-      </section>
-  
-    </main>
+
+<nav class="topnav">
+  <div class="brand">Riya Goel</div>
+  <div class="nav-links">
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#info">Info</a>
+    <a href="mailto:goelriya245@gmail.com">Contact</a>
   </div>
-  
-  <footer>
-    <div class="cta reveal">Building something interesting? <a href="mailto:goelriya245@gmail.com">Let's talk.</a></div>
-    <div class="foot-row">
-      <span>© 2026 Riya Goel. All rights reserved.</span>
-      <div class="foot-links">
-        <a href="http://www.linkedin.com/in/riyagoel8" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:goelriya245@gmail.com">Email</a>
-        <a href="tel:6086402651">Phone</a>
+</nav>
+
+<header class="hero">
+  <h1>Riya Goel</h1>
+  <p class="title">Computer Science, Data Science &amp; Math student at UW–Madison</p>
+  <p class="sub">Interning at Eagle Wireless. Interested in backend systems, APIs, and distributed systems.</p>
+  <div class="contact-line">
+    <a href="mailto:goelriya245@gmail.com">goelriya245@gmail.com</a>
+    <span>·</span>
+    <a href="http://www.linkedin.com/in/riyagoel8" target="_blank" rel="noopener">linkedin.com/in/riyagoel8</a>
+    <span>·</span>
+    <a href="tel:6086402651">608-640-2651</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Eagle Wireless</h3>
+        <span class="dates">May 2026 — Present</span>
+      </div>
+      <p class="role">Software Engineer Intern</p>
+      <ul>
+        <li>Designed a distributed, event-driven monitoring system handling real-time telemetry from 25+ containers across 5 Linux hosts, replacing manual checks for 3+ operators.</li>
+        <li>Built low-latency REST and WebSocket APIs in FastAPI to broadcast live system-state changes, using Pydantic schemas to enforce data integrity across services.</li>
+        <li>Integrated NetSuite and Inovaxe APIs into a backend automation service, cutting manual processing time by 50% across 30+ orders and 60+ units.</li>
+        <li>Automated build and deployment pipelines with Podman, Nginx, systemd, and Ansible, improving release consistency.</li>
+        <li>Wrote 20+ unit, integration, and API tests with Pytest, catching regressions pre-deployment.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>UW–Madison Letters &amp; Science</h3>
+        <span class="dates">May 2026 — Present</span>
+      </div>
+      <p class="role">IT Service Desk Technician</p>
+      <ul>
+        <li>Diagnose and resolve 20+ weekly technical issues across Windows, macOS, and university systems using structured root-cause troubleshooting.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Undergraduate Learning Centre</h3>
+        <span class="dates">May 2026 — Present</span>
+      </div>
+      <p class="role">STEM Peer Facilitator</p>
+      <ul>
+        <li>Teach algorithmic problem-solving and CS fundamentals to 10–20 students weekly, translating complex concepts into clear, structured explanations.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>E-Commerce Application</h3>
+        <span class="dates">Java · JDBC · MySQL</span>
+      </div>
+      <p>A layered, service-oriented Java app (DAO/service pattern) with auth, cart management, and order processing — CRUD across 4 core entities with clean separation between persistence and business logic.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Amazon Product Recommender</h3>
+        <span class="dates">Python · Scikit-learn</span>
+      </div>
+      <p>Benchmarked SVD and KNN collaborative-filtering models, tuning hyperparameters with GridSearchCV to reduce RMSE to 0.64. Built a Top-5 ranking pipeline from learned user-item embeddings.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-eyebrow">→ Skills</div>
+    <h2>My Skills</h2>
+    <p class="section-sub">Tools and technologies I use to build backend systems and APIs.</p>
+
+    <div class="skills-block">
+      <div class="tab-list">
+        <button class="tab-btn active" data-tab="languages">Languages</button>
+        <button class="tab-btn" data-tab="backend">Systems &amp; Backend</button>
+        <button class="tab-btn" data-tab="data">Data &amp; ML</button>
+      </div>
+      <div class="tab-panels">
+        <div class="tab-panel active" data-panel="languages">
+          <div class="skill-item">Python</div>
+          <div class="skill-item">Java</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">TypeScript</div>
+          <div class="skill-item">SQL</div>
+        </div>
+        <div class="tab-panel" data-panel="backend">
+          <div class="skill-item">Linux</div>
+          <div class="skill-item">Docker</div>
+          <div class="skill-item">Podman</div>
+          <div class="skill-item">Nginx</div>
+          <div class="skill-item">REST APIs</div>
+          <div class="skill-item">WebSockets</div>
+          <div class="skill-item">FastAPI</div>
+          <div class="skill-item">Flask</div>
+          <div class="skill-item">Distributed Systems</div>
+          <div class="skill-item">Concurrency</div>
+          <div class="skill-item">Git</div>
+          <div class="skill-item">CI/CD</div>
+          <div class="skill-item">Ansible</div>
+          <div class="skill-item">Pytest</div>
+          <div class="skill-item">Pydantic</div>
+        </div>
+        <div class="tab-panel" data-panel="data">
+          <div class="skill-item">Pandas</div>
+          <div class="skill-item">NumPy</div>
+          <div class="skill-item">Scikit-learn</div>
+          <div class="skill-item">PyTorch</div>
+          <div class="skill-item">SQLite</div>
+          <div class="skill-item">Tableau</div>
+          <div class="skill-item">Power BI</div>
+        </div>
       </div>
     </div>
-  </footer>
-  
-  <div class="preview" id="preview"></div>
+  </section>
+
+  <section id="info">
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>University of Wisconsin–Madison</h3>
+        <span class="dates">Sep 2024 — May 2028</span>
+      </div>
+      <p>B.S. in Computer Science, Data Science, and Mathematics. GPA 3.7/4.0 · Dean's List (3 semesters).</p>
+      <p>Coursework: Data Structures &amp; Algorithms, Artificial Intelligence, Linear Algebra, Discrete Mathematics.</p>
+    </div>
+
+    <h2>Leadership</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Women in Computing at UW–Madison (ACM-W)</h3>
+        <span class="dates">President</span>
+      </div>
+      <p>Lead a 20+ member executive board across 3 event programs. Scaled programming to 35+ events, building partnerships with 12+ companies and 5+ campus organizations.</p>
+    </div>
+    <div class="entry">
+      <div class="entry-head">
+        <h3>MadCloud</h3>
+        <span class="dates">Secretary</span>
+      </div>
+      <p>Founding secretary managing communications and operations for a new cloud computing organization. Coordinate recruitment and technical workshops with campus partners.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Riya Goel</p>
+</footer>
+
 </body>
 </html>
